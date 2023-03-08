@@ -2,9 +2,12 @@ public class Test {
 
     /**
      * Just returns true
-     * @return true
+     * @return false
      */
     public boolean eineAndereTestMethode() {
-        return true;
+        return false;
     }
+
+
+
 }
