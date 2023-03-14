@@ -1,6 +1,10 @@
+import palindrom.Palindrom;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Hallo Welt!");
+
+        String s = "abcacba";
+
+        System.out.println(Palindrom.isPalindrom(s));
     }
 }
